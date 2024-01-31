@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans&family=Roboto:wght@500&family=Sono:wght@500&display=swap');
+
+
+body{
+    padding:0;
+    margin:0;
+    font-family: Public Sans 'sans';
+    overflow-x: hidden;
+}
+
+.signup{
+    background-color: #20B486;
+    color: aliceblue;
+    border-radius: 10px;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.act a{
+   color: #20B486 !important;
+}
+.navbar-nav li a:hover{
+    color: #20B486 !important;
+    cursor: pointer;
+    transition: 0.5s all ease-in;
+}
+.hero-large-text{
+    font-size: 56px;
+}
+.green-text{
+    color: #20B486;
+}
+.grey-text{
+    color: darkgrey;
+}
+.input-learn {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    width: 470px;
+}
+.input-learn input{
+    border: none;
+}
+.input-learn input:focus{
+    border: none;
+}
+.hero-left{
+    margin-bottom: 100px;
+}
+.relative{
+    position: relative;
+}
+.vector1{
+    left: -10px;
+    top: 60px;
+    position: absolute;
+    width:100%; 
+    height:100px;  
+  border:solid 5px #FFC27A;
+  border-color:#FFC27A transparent transparent transparent;
+  border-radius: 90%/60px 10px 0 0;
+}
+.vector2{
+    left: -10px;
+    top: 60px;
+    position: absolute;
+    width:100%; 
+    height:100px;  
+  border:solid 5px #FFC27A;
+  border-color:#FFC27A transparent transparent transparent;
+  border-radius: 90%/60px 10px 0 0;
+}
+.vector5{
+    left: -10px;
+    top: 50px;
+    position: absolute;
+    width:100%; 
+    height:100px;  
+  border:solid 5px #FFC27A;
+  border-color:#FFC27A transparent transparent transparent;
+  border-radius: 90%/60px 10px 0 0;
+}
+
+.slick-next{
+    background-color: #20B486;
+    border-radius: 50%;
+}
+
+.slick-prev:hover, .slick-next:hover{
+    background-color: black;
+}
+.slick-prev{
+    background-color: #20B486;
+    border-radius: 50%;
+    
+}
+#slick-slide-control20{
+    color: #20B486 !important;
+}
+
+.testimonial .slick-arrow{
+    display:none;
+}
+.slick-dots li.slick-active button:before {
+   color: #20B486;
+   font-size: 10px;
+   }
+.slick-dots li button::before{
+    font-size: 10px ;
+}
+.slick-dots{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.popular-section{
+    margin-top: 100px;
+    background-color: #E9F8F3;
+    padding: 70px 5px;
+}
+
+.card{
+    width: 328px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border: none;
+}
+.popular-text{
+    margin-top: 5% !important;
+}
+.card .tag{
+    position:absolute;
+    padding: 2px 8px;
+    top: 5px;
+    left: 5px;
+    backdrop-filter: blur(8px); /* Chrome and Opera */
+box-shadow: 0px 10px 15px 10px rgb(0 0 0 / 15%);
+background-color: rgb(228 228 228 / 15%); 
+}
+.card-text{
+    padding: 15px 10px;
+    font-size: 15px;
+}
+
+.popular{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center;
+  
+}
+.slick-arrow{
+    margin-top: -50px;
+    color: #20B486 !important;
+}
+.popular-catagories{
+
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+.catagories{
+    font-size: 40px;
+}
+.sm-card{
+   
+    margin-right: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+.sm-card:hover{
+    border: #20B486 2px solid;
+    
+}
+.rotate{
+    transform: rotate(-28deg) !important;
+}
+
+.best-instructor{
+    background-color: #fffaf5;
+}
+.testimonial-card{
+    width: 600px !important;
+    background-color: #fff;  
+    box-shadow: 0 2px 2px rgb(0 0 0 / 0.1);
+
+  
+}
+.testimonial .slick-arrow{
+    display: none !important;
+}
+.text-desc h4{
+    line-height:1rem;
+}
+
+.sm-sm-card{
+    width: fit-content;
+}
+.text-content{
+    color: #363A3D;
+    font-size: 16px;
+    line-height: 24px;
+    
+}
+
+.learning-platform{
+    background-color: #f0faf7;
+}
+.signupbtn{
+    background-color: #20B486;
+    width: max-content;
+    color: #fff;
+    border-radius: 5px;
+   
+}
+
+.dark-grey{
+    color:#6D737A
+}
+
+.input{
+    background-color: #f0faf7;
+}
+
+.input  input{
+    border: none;
+    padding: 5px 10px;
+    background-color: #f0faf7;
+}
+input:focus{
+    outline: none;
+}
+.learning-platform .signupbtn h3{
+    font-weight: 1000 !important;
+    line-height: 48px;
+}
+@media only screen and (max-width: 600px) {
+
+   
+   .hero-image img{
+    width: 80vw;
+    margin-bottom: 100px;
+   }
+   .hero-large-text{
+    font-size: 35px;
+}
+.vector1{display: none;}
+.vector2{display: none;}
+.popular{
+    flex-direction: column;
+    align-items: center;
+    justify-content:start;
+}
+.popular-text{
+    width: 100vw !important;
+    margin: 0 !important;
+}
+.slick-arrow{
+    margin-top: -50px;
+}
+
+
+}

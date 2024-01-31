@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./assets/bootstrap-4.6.2-dist/css/bootstrap.min.css" crossorigin="anonymous">
+
+
+    <!-- Video js -->
+    <link href="https://vjs.zencdn.net/7.20.3/video-js.css" rel="stylesheet" />
+
+    <!-- City -->
+    <link href="https://unpkg.com/@videojs/themes@1/dist/city/index.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./styles/class.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
+    <!-- video js  -->
+    <link rel="stylesheet" href="https://unpkg.com/video.js@6.1.0/dist/video-js.css">
+    <link rel="stylesheet" href="https://unpkg.com/silvermine-videojs-quality-selector/dist/css/quality-selector.css">
+
+    <!-- Video Js -->
+    <script src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
+
+
+    <title>eDex</title>
+</head>
+
+<body>
+    <!-- navBar -->
+    <section>
+        <nav class="navbar navbar-expand-lg px-4 navbar-light ">
+            <a class="navbar-brand " href="#"><img src="./assets/images/eDex.png" width="80" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item act">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">My Classes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Profile</a>
+                    </li>
+
+                </ul>
+
+                <div class="action ml-auto d-flex justify-content-center">
+                    <div class="login px-4 py-2 my-2">
+                        <img src="./assets/icons/Lock.png" alt="">
+                        Transcript
+                    </div>
+                    <div class="signup  px-4 py-2 my-2">Logout</div>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- main -->
+    <main>
+        <section class="cont pt-5 ">
+            <div class="d-flex flex-column pt-4 course-title mb-4">
+                <h3 class="mb-3">React Front To Back 2022</h3>
+                <h6>Brad Traversy</h6>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-md-12" id="class">
+                    <video id="video_1" class="video-js vjs-default-skin" controls preload="auto" data-setup='{}'>
+                        <source src="./assets/videos/Refer And Earn Telegram Bot _ Telegram Bot in Python.mp4"
+                            type="video/mp4" label="720P" selected="true">
+                        <source
+                            src="https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ab/Caminandes_3_-_Llamigos_-_Blender_Animated_Short.webm/Caminandes_3_-_Llamigos_-_Blender_Animated_Short.webm.480p.webm"
+                            type="video/webm" label="480P">
+                        <source
+                            src="https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ab/Caminandes_3_-_Llamigos_-_Blender_Animated_Short.webm/Caminandes_3_-_Llamigos_-_Blender_Animated_Short.webm.360p.webm"
+                            type="video/webm" label="360P">
+                        <source
+                            src="https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ab/Caminandes_3_-_Llamigos_-_Blender_Animated_Short.webm/Caminandes_3_-_Llamigos_-_Blender_Animated_Short.webm.240p.webm"
+                            type="video/webm" label="240P">
+                    </video>
+                </div>
+                <div class="col-lg-4 mt-5 col-md-12 courses ">
+                    <div class="course-header-info">
+                        <h5>114 Lessons (14h 22m)</h5>
+
+                        <div class="back">
+                            
+                            <button class="navbar-toggler"  id="togglePlaylist" type="button" data-toggle="collapse" data-target="#playlist"
+                                aria-controls="playlist" aria-expanded="true" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"><i class="fa-solid fa-bars-progress"></i></span>
+
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="course-list collapse navbar-nav navbar-collapse" id="playlist">
+                        <!-- course-1 -->
+                        <div class="course">
+                            <div class="name">
+                                <div class="icon"><i class="fa-regular fa-circle-play"></i></div>
+                                <span>1-</span>
+                                <p>Welcome To The Course</p>
+                            </div>
+                            <div class="time">15:27</div>
+                        </div>
+
+                        <!-- course-1 -->
+                        <div class="course">
+                            <div class="name">
+                                <div class="icon"><i class="fa-regular fa-circle-play"></i></div>
+                                <span>2-</span>
+                                <p>Welcome To The Course</p>
+                            </div>
+                            <div class="time">15:27</div>
+                        </div>
+
+                        <!-- course-1 -->
+                        <div class="course">
+                            <div class="name">
+                                <div class="icon"><i class="fa-solid fa-xmark"></i></div>
+                                <span>3-</span>
+                                <p>Welcome To The Course</p>
+                            </div>
+                            <div class="time">15:27</div>
+                        </div>
+
+                        <!-- course-1 -->
+                        <div class="course">
+                            <div class="name">
+                                <div class="icon"><i class="fa-regular fa-circle-play"></i></div>
+                                <span>4-</span>
+                                <p>Welcome To The Course</p>
+                            </div>
+                            <div class="time">6:27</div>
+                        </div>
+
+                        <!-- course-1 -->
+                        <div class="course active">
+                            <div class="name">
+                                <div class="icon"><i class="fa-regular fa-circle-pause"></i></div>
+                                <span>5-</span>
+                                <p>Welcome To The Course</p>
+                            </div>
+                            <div class="time">5:27</div>
+                        </div>
+
+                        <!-- course-1 -->
+                        <div class="course">
+                            <div class="name">
+                                <div class="icon"><i class="fa-regular fa-circle-play"></i></div>
+                                <span>6-</span>
+                                <p>Welcome To The Course</p>
+                            </div>
+                            <div class="time">1:27</div>
+                        </div>
+                        <!-- course-1 -->
+                        <div class="course">
+                            <div class="name">
+                                <div class="icon"><i class="fa-solid fa-xmark"></i></div>
+                                <span>8-</span>
+                                <p>Welcome To The Course</p>
+                            </div>
+                            <div class="time">1:27</div>
+                        </div>
+                        <!-- course-1 -->
+                        <div class="course">
+                            <div class="name">
+                                <div class="icon"><i class="fa-regular fa-circle-play"></i></div>
+                                <span>9-</span>
+                                <p>Welcome To The Course</p>
+                            </div>
+                            <div class="time">1:27</div>
+                        </div>
+                        <!-- course-1 -->
+                        <div class="course">
+                            <div class="name">
+                                <div class="icon"><i class="fa-solid fa-xmark"></i></div>
+                                <span>10-</span>
+                                <p>Start Now</p>
+                            </div>
+                            <div class="time">1:27</div>
+                        </div>
+                        <!-- course-1 -->
+                        <div class="course">
+                            <div class="name">
+                                <div class="icon"><i class="fa-regular fa-circle-play"></i></div>
+                                <span>11-</span>
+                                <p>Welcome To The Course</p>
+                            </div>
+                            <div class="time">1:27</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            </div>
+
+
+        </section>
+
+    </main>
+
+    <div class="container mt-3">
+        <section>
+            <!-- course-list section -->
+            <div class="row">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#home"
+                            type="button" role="tab" aria-controls="home" aria-selected="true">About</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#profile" type="button"
+                            role="tab" aria-controls="profile" aria-selected="false">Projects & Resources</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#contact" type="button"
+                            role="tab" aria-controls="contact" aria-selected="false">Reviews</button>
+                    </li>
+                </ul>
+                <div class="divider"></div>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="description-column container mr-5">
+                            <div class="rich-content-wrapper js-accordion accordion-collapsed">
+                                <p></p>
+                                <p>This course is for anyone that wants to learn
+                                    React and also for React developers looking to
+                                    build some projects and sharpen their skills.
+                                </p>
+                                <p><strong>Here are some of the things you will
+                                        learn in this course:</strong></p>
+                                <ul>
+                                    <li>
+                                        <p>React fundamentals including components,
+                                            props, hooks, state, etc</p>
+                                    </li>
+                                    <li>
+                                        <p>React hooks such as useState, useEffect,
+                                            useContext, useReducer, useRef, etc</p>
+                                    </li>
+                                    <li>
+                                        <p>Creating custom hooks</p>
+                                    </li>
+                                    <li>
+                                        <p>React Router v6 (latest version)</p>
+                                    </li>
+                                    <li>
+                                        <p>How to handle global state with context,
+                                            reducers and hooks</p>
+                                    </li>
+                                    <li>
+                                        <p>Firebase 9 authentication, queries,
+                                            storage</p>
+                                    </li>
+                                    <li>
+                                        <p>Deploying React apps to Vercel &amp;
+                                            Netlify</p>
+                                    </li>
+                                    <li>
+                                        <p>Basic Animation with Framer Motion</p>
+                                    </li>
+                                    <li>
+                                        <p>Implement Leaflet maps and Swiper sliders
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>Much More...</p>
+                                    </li>
+                                </ul>
+                                <p>This course has been completely re-done with new
+                                    projects and concepts from the old course. I
+                                    have a few React courses and this is the one
+                                    that I always suggest people start with before
+                                    moving on to the MERN courses</p>
+                                <p>I am also working on a 4th project for the
+                                    course, which will be a full-stack MERN
+                                    ticketing system that uses Redux for state
+                                    management.</p>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos magni ad officiis. Quasi, eaque
+                        consequuntur id rerum corporis voluptas beatae impedit ratione nihil animi. Provident magni
+                        perspiciatis asperiores ullam dolor.
+                        Cupiditate, magnam consequuntur. Impedit, optio harum, placeat voluptatem quis quibusdam
+                        molestias voluptate officiis necessitatibus numquam illum accusamus porro, officia sapiente et
+                        sint architecto! Ullam consectetur iusto necessitatibus recusandae sunt suscipit!
+                        Ipsum sit tempore itaque qui cupiditate rem dignissimos nam pariatur. Fuga autem, neque
+                        molestias earum, quas voluptatibus provident modi reprehenderit animi dolorum iusto atque sed
+                        quisquam nam asperiores, pariatur eum?
+                        Est perspiciatis corporis ratione ea dolore totam sapiente fugiat omnis rem facilis in unde
+                        adipisci asperiores qui nobis quidem consequatur aspernatur quasi consequuntur nam placeat
+                        veniam, molestias assumenda harum. Explicabo!
+                    </div>
+                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quae laboriosam maiores nemo
+                        tenetur aut animi vero, at distinctio beatae accusantium dignissimos sequi saepe obcaecati ad
+                        iste iure exercitationem aperiam?
+                        Modi possimus odit eaque ipsa quos error, amet, qui tenetur repellendus ad ab provident! Maxime
+                        suscipit, cum minima sapiente ab magni perferendis odio quod ipsa quas sit, error eum quos.
+                    </div>
+                </div>
+        </section>
+    </div>
+
+    <section class="footer align-items-center">
+        <footer>
+            <div class="container ">
+                <div class="row mt-5">
+                    <div class="col mt-5">
+                        <img src="./assets/images/eDex.jpg" class="my-2" alt="">
+                        <h5 class="mt-3">Contact Us</h5>
+                        <p class="mt-3">Call: +251 982029377</p>
+                        <p class="dark-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam saepe
+                            accusantium illum modi deleniti laborum doloremque voluptatibus pariatur iste sint sunt
+                            iure, cupiditate totam nulla asperiores error perspiciatis voluptates tempora!</p>
+
+                        <h6>Email:esraeldawit0@gmail.com</h6>
+
+                        <div class="social-icons d-flex justify-content-between my-4">
+                            <img src="./assets/icons/Social Media card-1.png" alt="">
+                            <img src="./assets/icons/Social Media card-2.png" alt="">
+                            <img src="./assets/icons/Social Media card-3.png" alt="">
+                            <img src="./assets/icons/Social Media card-4.png" alt="">
+                            <img src="./assets/icons/Social Media card.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col mt-5">
+                        <h4 class="head-title">Explore</h4>
+                        <div class="d-flex-flex-column mt-5 dark-grey">
+                            <h6>Home</h6>
+                            <h6>About</h6>
+                            <h6>Course</h6>
+                            <h6>Blog</h6>
+                            <h6>Contact</h6>
+                        </div>
+                    </div>
+                    <div class="col mt-5">
+                        <h4 class="head-title">Category</h4>
+                        <div class="d-flex-flex-column mt-5 dark-grey">
+                            <h6>Home</h6>
+                            <h6>About</h6>
+                            <h6>Course</h6>
+                            <h6>Blog</h6>
+                            <h6>Contact</h6>
+                        </div>
+                    </div>
+
+                    <div class="col mt-5">
+                        <h3>Subscribe</h3>
+                        <p class="dark-grey">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit molestias aliquid
+                            exercitationem.
+
+                        <div class="input">
+                            <input type="text" placeholder="Email Here">
+                        </div>
+
+                        <div class="signupbtn px-3  mt-4">Subscribe Now</div>
+                        </p>
+                    </div>
+                </div>
+        </footer>
+    </section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="./assets/bootstrap-4.6.2-dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/video.js@6.1.0/dist/video.js"></script>
+
+    <script
+        src="https://unpkg.com/silvermine-videojs-quality-selector/dist/js/silvermine-videojs-quality-selector.min.js"></script>
+
+
+
+
+    <script>
+        videojs("video_1", {}, function () {
+            var player = this;
+            player.controlBar.addChild('QualitySelector');
+        });
+
+        // let col = document.getElementById("class")
+        // let toggler = document.getElementById("togglePlaylist")
+        // toggler.addEventListener("click",()=>{
+        //     tooglePlaylist()
+        // })
+        // function tooglePlaylist(){
+        // col.classList.remove('col-lg-8')
+        // colclassList.add('col-lg-12')
+        // }
+       
+    </script>
+</body>
+
+</html>
